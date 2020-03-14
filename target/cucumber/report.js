@@ -38,7 +38,7 @@ formatter.match({
   "location": "BaiduSearch.iOpenBaiduSearchPage()"
 });
 formatter.result({
-  "duration": 6013796032,
+  "duration": 8022016375,
   "status": "passed"
 });
 formatter.match({
@@ -51,14 +51,14 @@ formatter.match({
   "location": "BaiduSearch.iInputInSearchBox(String)"
 });
 formatter.result({
-  "duration": 128578416,
+  "duration": 115898887,
   "status": "passed"
 });
 formatter.match({
   "location": "BaiduSearch.iClickSearchButton()"
 });
 formatter.result({
-  "duration": 79338959,
+  "duration": 82473769,
   "status": "passed"
 });
 formatter.match({
@@ -71,7 +71,7 @@ formatter.match({
   "location": "BaiduSearch.showSearchResultShouldInclude(String)"
 });
 formatter.result({
-  "duration": 6267819419,
+  "duration": 6026931241,
   "status": "passed"
 });
 });
