@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaiduSearch {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @Given("^I open baidu search page$")
     public void iOpenBaiduSearchPage() {
