@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "search dog in baidu searchbox",
+        "description": "",
+        "id": "test-baidu-serch;search-dog-in-baidu-searchbox",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6013796032,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open baidu search page",
+            "match": {
+              "location": "BaiduSearch.iOpenBaiduSearchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128578416,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I input \"dog\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dog",
+                  "offset": 9
+                }
+              ],
+              "location": "BaiduSearch.iInputInSearchBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79338959,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click search button",
+            "match": {
+              "location": "BaiduSearch.iClickSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6267819419,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "show search result should include \"dog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dog",
+                  "offset": 35
+                }
+              ],
+              "location": "BaiduSearch.showSearchResultShouldInclude(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test baidu serch",
+    "description": "",
+    "id": "test-baidu-serch",
+    "keyword": "Feature",
+    "uri": "src/test/resources/firstTestFeaturs/baiduSearch.feature"
+  }
+]
