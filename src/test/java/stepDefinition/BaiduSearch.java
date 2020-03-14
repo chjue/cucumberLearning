@@ -1,3 +1,5 @@
+package stepDefinition;
+
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -32,6 +34,7 @@ public class BaiduSearch {
 
     @And("^I click search button$")
     public void iClickSearchButton() {
+
         driver.findElement(By.id("su")).click();
     }
 
